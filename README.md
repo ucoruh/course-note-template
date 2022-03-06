@@ -483,6 +483,8 @@ Click `Stage-All` and Write Your Commit Then Click `Commit&Push`
 
 ![](assets/2022-03-07-02-30-27-image.png)
 
+![](assets/2022-03-07-02-32-20-image.png)
+
 ### Step-8: Publishing Web Site
 
 Run **run_mkdocs_for_githubpages_publish.bat** This will run following commands 
