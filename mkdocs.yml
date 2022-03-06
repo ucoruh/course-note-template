@@ -104,7 +104,7 @@ theme:
 extra:
   analytics:
     provider: google
-    property: !ENV GOOGLE_ANALYTICS_KEY_CE204
+    property: !ENV GOOGLE_ANALYTICS_KEY_TEMPLATE
     feedback:
       title: Was this page helpful?
       ratings:
