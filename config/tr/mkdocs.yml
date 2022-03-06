@@ -1,5 +1,7 @@
 # Project information
-site_name: "RTEU Course Notes Templates"
+site_name: "RTEU Ders Not Şablonu"
+docs_dir: '../../docs/tr'                           # Where to find the English markdown files
+site_dir: '../../generated/tr'                      # Where to put the English HTML files
 site_author: 'Asst. Prof. Dr. Uğur CORUH'
 site_url: 'https://ucoruh.github.io/ce204-object-oriented-programming/'
 site_description: >-
@@ -29,7 +31,8 @@ copyright: Copyright &copy; 2019 - 2022 Asst. Prof. Dr. Uğur CORUH
 # Configuration
 theme:
   name: material
-  custom_dir: docs/overrides/
+  custom_dir: '../../overrides/'
+  # custom_dir: docs/overrides/
   #name: null
   #custom_dir: !ENV [THEME_DIR, "material"]
   
@@ -145,10 +148,13 @@ extra:
       link: https://avesis.erdogan.edu.tr/ugur.coruh
     - icon: fontawesome/regular/user-circle
       link: https://www.ugurcoruh.com/
+      
   alternate:
+  
     - name: English
       link: /en/ 
       lang: en
+      
     - name: Türkçe
       link: /tr/
       lang: tr
@@ -197,6 +203,7 @@ markdown_extensions:
 
 plugins:
   - search
+      lang: tr    # Set language for search
   - git-revision-date-localized
   - minify:
       minify_html: false
@@ -208,25 +215,25 @@ extra_javascript:
   
 # Page tree
 nav:
-  - Home: index.md
-  - Syllabus: syllabus/syllabus.md
-  - Course Modules:
-    - Week-1 (Sample-1): week-1/week-1.md
-    - Week-2 (Sample-2): week-2/week-2.md
-    - Week-3 (Sample-3): week-3/week-3.md
-    - Week-4 (Sample-4): week-4/week-4.md
-    - Week-5 (Sample-5): week-5/week-5.md
-    - Week-6 (Sample-6): week-6/week-6.md
-    - Week-7 (Sample-7): week-7/week-7.md
-    - Week-8 (Midterm): week-8/week-8-midterm.md
-    - Week-9 (Sample-9): week-9/week-9.md
-    - Week-10 (Sample-10): week-10/week-10.md 
-    - Week-11 (Sample-11): week-11/week-11.md 
-    - Week-12 (Sample-12): week-12/week-12.md
-    - Week-13 (Sample-13): week-13/week-13.md
-    - Week-14 (Sample-14): week-14/week-14.md
-    - Week-15 (Sample-15): week-15/week-15.md
-    - Week-16 (Final): week-16/week-16-final.md
-  - License: license.md
-  - Changelog: changelog/index.md
+  - AnaSayfa: index.md
+  - Ders İzlencesi: syllabus/syllabus.md
+  - Ders Modülleri:
+    - Hafta-1 (Örnek-1): week-1/week-1.md
+    - Hafta-2 (Örnek-2): week-2/week-2.md
+    - Hafta-3 (Örnek-3): week-3/week-3.md
+    - Hafta-4 (Örnek-4): week-4/week-4.md
+    - Hafta-5 (Örnek-5): week-5/week-5.md
+    - Hafta-6 (Örnek-6): week-6/week-6.md
+    - Hafta-7 (Örnek-7): week-7/week-7.md
+    - Hafta-8 (Örnek-8): week-8/week-8.md
+    - Hafta-9 (Örnek-9): week-9/week-9.md
+    - Hafta-10 (Örnek-10): week-10/week-10.md 
+    - Hafta-11 (Örnek-11): week-11/week-11.md 
+    - Hafta-12 (Örnek-12): week-12/week-12.md
+    - Hafta-13 (Örnek-13): week-13/week-13.md
+    - Hafta-14 (Örnek-14): week-14/week-14.md
+    - Hafta-15 (Örnek-15): week-15/week-15.md
+    - Hafta-16 (Örnek-16): week-16/week-16.md
+  - Lisans: license.md
+  - Geçmiş: changelog/index.md
 
