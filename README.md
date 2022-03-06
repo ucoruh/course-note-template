@@ -1,17 +1,31 @@
-# ce204-object-oriented-programming
+## Localization Support
 
-ce204 object-oriented programming course notes
+[Changing the language - Material for MkDocs](https://squidfunk.github.io/mkdocs-material/setup/changing-the-language/)
 
-Website : [Home - RTEU CE204 Object-Oriented Programming Course Notes](https://ucoruh.github.io/ce204-object-oriented-programming/)
+[GitHub - lukasgeiter/mkdocs-awesome-pages-plugin: An MkDocs plugin that simplifies configuring page titles and their order](https://github.com/lukasgeiter/mkdocs-awesome-pages-plugin)
 
-ce100 algorithms and programming II course notes
+[Create beautiful and localized documentations and websites using MkDocs + Github - Ultrabug](https://ultrabug.fr/Tech%20Blog/2021/2021-07-28-create-beautiful-and-localized-documentations-and-websites-using-mkdocs-github/)
 
-Website : [Home - RTEU CE100 Algorithms and Programming-II Course Notes](https://ucoruh.github.io/ce100-algorithms-and-programming-II/)
+[GitHub - ultrabug/mkdocs-static-i18n: MkDocs i18n plugin using static translation markdown files](https://github.com/ultrabug/mkdocs-static-i18n)
 
-ce103 algorithms and programming I course notes
+[GitHub - ultrabug/mkdocs-static-i18n: MkDocs i18n plugin using static translation markdown files](https://github.com/ultrabug/mkdocs-static-i18n)
 
-Website: [Home - RTEU CE103 Algorithms and Programming-I Course Notes](https://ucoruh.github.io/ce103-algorithms-and-programming-I/)
+[MkDocs static i18n plugin demo](https://ultrabug.github.io/mkdocs-static-i18n/)
 
-ce205 data structure course notes
+[GitHub - orzih/mkdocs-with-pdf: Generate a single PDF file from MkDocs repository.](https://github.com/orzih/mkdocs-with-pdf)
 
-Website : [Home - RTEU CE205 Data Structures Course Notes](https://ucoruh.github.io/ce205-data-structures/)
+[mkdocs-with-pdf/document.pdf at master · orzih/mkdocs-with-pdf · GitHub](https://github.com/orzih/mkdocs-with-pdf/blob/master/samples/mkdocs-material/document.pdf)
+
+[mkdocs-with-pdf/samples/mkdocs-material at master · orzih/mkdocs-with-pdf · GitHub](https://github.com/orzih/mkdocs-with-pdf/tree/master/samples/mkdocs-material)
+
+https://ultrabug.fr/
+
+[Template Designer Documentation &#8212; Jinja Documentation (3.1.x)](https://jinja.palletsprojects.com/en/latest/templates/#variables)
+
+[mkdocs-static-i18n · PyPI](https://pypi.org/project/mkdocs-static-i18n/#translating-navigation)
+
+[GitHub - lukasgeiter/mkdocs-awesome-pages-plugin: An MkDocs plugin that simplifies configuring page titles and their order](https://github.com/lukasgeiter/mkdocs-awesome-pages-plugin)
+
+[comparisons expression | Jinja Compat Tests](https://jbmoelker.github.io/jinja-compat-tests/expressions/comparisons/)
+
+[Template Designer Documentation &#8212; Jinja Documentation (3.0.x)](https://jinja.palletsprojects.com/en/3.0.x/templates/)
