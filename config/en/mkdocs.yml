@@ -3,13 +3,13 @@ site_name: "RTEU Course Notes Templates"
 docs_dir: '../../docs/en'                           # Where to find the English markdown files
 site_dir: '../../generated/en'                      # Where to put the English HTML files
 site_author: 'Asst. Prof. Dr. Uğur CORUH'
-site_url: 'https://ucoruh.github.io/ce204-object-oriented-programming/'
+site_url: 'https://ucoruh.github.io/course-note-template/'
 site_description: >-
     Course Notes Templates
 
 # Repository
 repo_name: 'GitHub'
-repo_url: 'https://github.com/ucoruh/ce204-object-oriented-programming'
+repo_url: 'https://github.com/ucoruh/course-note-template'
 edit_uri: ""
 
 # Copyright

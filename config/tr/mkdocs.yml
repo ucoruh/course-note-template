@@ -2,18 +2,18 @@
 site_name: "RTEU Ders Not Şablonu"
 docs_dir: '../../docs/tr'                           # Where to find the English markdown files
 site_dir: '../../generated/tr'                      # Where to put the English HTML files
-site_author: 'Asst. Prof. Dr. Uğur CORUH'
-site_url: 'https://ucoruh.github.io/ce204-object-oriented-programming/'
+site_author: 'Dr. Öğr. Üyesi Uğur CORUH'
+site_url: 'https://ucoruh.github.io/course-note-template/'
 site_description: >-
-    Course Notes Templates
+    Ders Notu Şablonu
 
 # Repository
 repo_name: 'GitHub'
-repo_url: 'https://github.com/ucoruh/ce204-object-oriented-programming'
+repo_url: 'https://github.com/ucoruh/course-note-template'
 edit_uri: ""
 
 # Copyright
-copyright: Copyright &copy; 2019 - 2022 Asst. Prof. Dr. Uğur CORUH
+copyright: Copyright &copy; 2019 - 2022 Dr. Öğr. Üyesi Uğur CORUH
 
 #theme:
 #    name: material
