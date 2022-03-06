@@ -46,6 +46,9 @@ I used this my courses to make my and student life a bit easy. You can use simil
 
 - pptx2md
 
+- git / github
+
+
 ## Installation
 
 ### Step-1: Version Management and GIT
@@ -502,6 +505,8 @@ and push your content to remote repository and start a deployment action. After 
 ```bash
 site_url: 'https://ucoruh.github.io/course-note-template/
 ```
+
+![](assets/2022-03-07-02-41-06-image.png)
 
 ### Step-9: PPTX Conversion to Markdown
 
