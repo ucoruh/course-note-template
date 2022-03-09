@@ -1,0 +1,1 @@
+curl -o "CE204-Object Oriented Programming-Bologna.pdf" "http://ogrenci.erdogan.edu.tr/BLGNDersBilgiPaketi/PDFTumu?mufDersID=29773&dersGrubuDersID=0&dersID=16089&yilID=null&programID=1221&mufredatID=null&dilID=1"
