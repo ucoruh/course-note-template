@@ -9,7 +9,7 @@ Powershell.exe choco install rsvg-convert
 Powershell.exe choco install python
 Powershell.exe choco install miktex
 
-Powershell.exe Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
+Powershell.exe iex \"& {$(irm get.scoop.sh)} -RunAsAdmin\"
 Powershell.exe Set-ExecutionPolicy RemoteSigned -scope CurrentUser
 Powershell.exe scoop install curl
 Powershell.exe scoop install marp
