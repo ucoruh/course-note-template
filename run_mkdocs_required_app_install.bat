@@ -16,6 +16,7 @@ rem Aligned with latest revision of Scoop documentation and PowerShell
 rem syntaxing.
 Powershell.exe iex \"& {$(irm get.scoop.sh)} -RunAsAdmin\"
 Powershell.exe Set-ExecutionPolicy RemoteSigned -scope CurrentUser
+start cmd /C scoop install curl
 start cmd /C scoop install marp
 
 pip install mkdocs
