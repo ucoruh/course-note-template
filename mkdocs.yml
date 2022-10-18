@@ -95,10 +95,10 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
-  favicon: images/favicon-1.webp
+  favicon: images/favicon.png
   icon:
     logo: logo
-    #logo: assets/images/favicon-1.webp
+    #logo: assets/images/favicon.png
     
 # Customization
 extra:
