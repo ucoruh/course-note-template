@@ -2,8 +2,8 @@
 site_name: RTEU Course Notes Templates
 docs_dir: docs  # Where to find the English markdown files
 site_dir: site  # Where to put the English HTML files
-site_author: 'Asst. Prof. Dr. Uğur CORUH'/'Abdul Samed Kara'
-site_url: 'https://ucoruh.github.io/course-note-template/'
+site_author: 'Abdul Samed Kara'
+site_url: 'https://github.com/abdulsamed57/ce103-algorithms-and-programming-I'
 
 site_description_en: >-
     Course Notes Templates
@@ -13,7 +13,7 @@ site_description_tr: >-
 
 # Repository
 repo_name: 'GitHub'
-repo_url: 'https://github.com/ucoruh/course-note-template'
+repo_url: 'https://github.com/abdulsamed57/ce103-algorithms-and-programming-I'
 edit_uri: ""
 
 # Copyright
@@ -75,7 +75,7 @@ theme:
         name: Switch to dark mode
     - scheme: slate
       primary: light blue
-      accent: light blue
+      accent: pink
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to light mode
@@ -130,27 +130,9 @@ extra:
       analytics: Google Analytics
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/ucoruh
-    - icon: fontawesome/brands/bitbucket
-      link: https://bitbucket.org/ucoruh/
-    - icon: fontawesome/regular/compass
-      link: https://www.scopus.com/authid/detail.uri?authorId=57218950743
-    - icon: fontawesome/regular/id-card
-      link: https://dblp.org/pid/230/0394.html
-    - icon: fontawesome/brands/docker
-      link: https://hub.docker.com/u/ucoruh/
-    - icon: fontawesome/brands/orcid
-      link: https://orcid.org/my-orcid?orcid=0000-0003-4193-8401
-    - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/ugurcoruh/
-    - icon: fontawesome/regular/moon
-      link: https://publons.com/researcher/1540204/ugur-coruh/
-    - icon: fontawesome/brands/google
-      link: https://scholar.google.com/citations?user=KIU4ltMAAAAJ&hl=tr
-    - icon: fontawesome/regular/clipboard
-      link: https://avesis.erdogan.edu.tr/ugur.coruh
-    - icon: fontawesome/regular/user-circle
-      link: https://www.ugurcoruh.com/
+      link: https://github.com/abdulsamed57
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/abdulsamet_kara
             
 # Extensions
 markdown_extensions:
@@ -287,22 +269,8 @@ nav:
   - Home: index.md
   - Syllabus: syllabus/syllabus.md
   - Course Modules:
-    - Week-1 (Sample-1): week-1/week-1.md
-    - Week-2 (Sample-2): week-2/week-2.md
-    - Week-3 (Sample-3): week-3/week-3.md
-    - Week-4 (Sample-4): week-4/week-4.md
-    - Week-5 (Sample-5): week-5/week-5.md
-    - Week-6 (Sample-6): week-6/week-6.md
-    - Week-7 (Sample-7): week-7/week-7.md
-    - Week-8 (Midterm): week-8/week-8-midterm.md
-    - Week-9 (Sample-9): week-9/week-9.md
-    - Week-10 (Sample-10): week-10/week-10.md 
-    - Week-11 (Sample-11): week-11/week-11.md 
-    - Week-12 (Sample-12): week-12/week-12.md
-    - Week-13 (Sample-13): week-13/week-13.md
-    - Week-14 (Sample-14): week-14/week-14.md
-    - Week-15 (Sample-15): week-15/week-15.md
-    - Week-16 (Final): week-16/week-16-final.md
+    - Database Systems: week-1/week-1.md
+    - Algorithms: week-2/week-2.md
   - License: license.md
   - Resume: resume/index.md
   - Changelog: changelog/index.md

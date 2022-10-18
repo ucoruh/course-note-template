@@ -145,4 +145,4 @@ math: katex
 
 ---
 
-$End-Of-Week-1-Module$
+$Hafta-2-Son$

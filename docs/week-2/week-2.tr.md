@@ -46,15 +46,15 @@ math: katex
 
 <!-- _backgroundColor: aquq -->
 
-<!-- _color: orange -->
+<!-- _color: green -->
 
 <!-- paginate: false -->
 
 ## Örnek Ders Adı
 
-### Hafta-2 (Örnek Ders Modülü Adı)
+### Hafta-2 (Veri Yapıları ve Algoritmalar)
 
-#### Bahar Dönemi, 20XX-20XX
+#### Bahar Dönemi, 2022-2023
 
 İndir [DOC](week-2.tr.md_doc.pdf), [SLIDE](week-2.tr.md_slide.pdf), [PPTX](week-2.tr.md_slide.pptx)
 
@@ -66,163 +66,74 @@ math: katex
 
 ### Anahat
 
-- Örnek Anahat
-- Örnek Anahat
-- Örnek Anahat
-- Örnek Anahat
+- Algoritma Nedir?
+- Bilgilerin Bilgisayarda İfadesi
+- Diziler
+- Bağlı listeler
 
 ---
 
-## **Örnek Konu**
+## **Algoritma**
 
 ---
 
-### Örnek Konu
+### Algoritma
 
-- **Lorem Ipsum nedir?**
-Lorem Ipsum, basım ve dizgi endüstrisinin basit bir sahte metnidir. Lorem Ipsum, 1500'lerden beri endüstrinin standart sahte metni olmuştur.
-   - bilinmeyen bir matbaacı bir tür kadırga alıp onu bir tip numune kitabı yapmak için karıştırdığında. Sadece beş yüzyıl hayatta kalmadı,
-     - ama aynı zamanda, esasen değişmeden kalan elektronik dizgiye geçiş.
-       - 1960'larda Lorem Ipsum pasajları içeren Letraset sayfalarının yayınlanmasıyla ve daha yakın zamanda Aldus PageMaker gibi Lorem Ipsum sürümlerini içeren masaüstü yayıncılık yazılımlarıyla popüler hale geldi.
+- **Algoritma Nedir?**
+    Algoritma, Cebrin atası ve kurucusu olarak bilinen Harezmî tarafından 9.yüzyılda cebir alanındaki araştırmaları neticesinde ortaya çıkmıştır. Avrupalılar, Harezmî ismini telaffuz edemediklerinden dolayı algorizm (Arap sayıları kullanarak aritmetik problemler çözme kuralları) olarak kullandılar. Algorizm daha sonra "algoritma" adını aldı.
+    ![center h:300px](assets/Algoritma.png)
 ---
 
-### Örnek Resimler-1
+### Algoritma
 
-- **Lorem Ipsum nedir?**
-Lorem Ipsum, basım ve dizgi endüstrisinin basit bir sahte metnidir. Lorem Ipsum, 1500'lerden beri endüstrinin standart sahte metni olmuştur.
-
-![center h:400px](assets/sample-1.png)
-
+- **Algoritma Nedir?**
+   Gördüğünüz üzere ana problemimiz bilgisayarın çalışmaması. İlk adım güç kablosunun takılı olup olmadığını kontrol etmek. Bu adımın cevabı Hayır ise yapmamız gereken güç kablosunu takmaktır, cevap Evet ve hâlâ bilgisayarımız çalışmıyor ise bir sonraki adımı uygulamamız gerekiyor. İkinci adım, uzatma kablosunun durumunu inceledikten sonra eğer bilgisayarımız hâlâ çalışmıyor ise tamire götürmemiz gerektiği sonucunu veriyor.
 ---
 
-### Örnek Resimler-2
+### Bilgilerin Bilgisayarda İfadesi
 
-- **Lorem Ipsum nedir?**
-Lorem Ipsum, basım ve dizgi endüstrisinin basit bir sahte metnidir. Lorem Ipsum, 1500'lerden beri endüstrinin standart sahte metni olmuştur.
+- 
+   Bir insan kendini ifade etmek istediğinde native (ana) bir dil kullanıyor öyle değil mi? Bilgisayar da bilgiyi (Resim, ses, yazı vb) ifade etmek ve döngüyü sağlamak için bit (0 ve 1)' den oluşan ikili sayıları (Binary Numbers) kullanıyor.
 
-![bg right:50% h:400px](assets/sample-1.png)
+![bg right:50% h:300px](assets/Binary.jpg)
 
 ---
 
-### Örnek Resimler-3
+### Bilgilerin Bilgisayarda İfadesi
 
-- **Lorem Ipsum nedir?**
-Lorem Ipsum, basım ve dizgi endüstrisinin basit bir sahte metnidir. Lorem Ipsum, 1500'lerden beri endüstrinin standart sahte metni olmuştur.
-
-![bg left:50% h:400px](assets/sample-1.png)
+- 
+   İkili sayılarda bulunan 1 ve 0 rakamları (bit), bilgisayarın elektrik iletimi için kullandığı transistörlerin açık veya kapalı olma durumunu gösteriyor. Transistörlerde iki tane komut vardır, 0 (kapat) ve 1 (aç).
 
 ---
 
-### Örnek Resimler-4
-
-- **Lorem Ipsum nedir?**
-Lorem Ipsum, basım ve dizgi endüstrisinin basit bir sahte metnidir. Lorem Ipsum, 1500'lerden beri endüstrinin standart sahte metni olmuştur.
-
-![bg h:400px](assets/sample-1.png)
+### Diziler
+- 
+   Diziler, anlam ifade etmesi için birden fazla nesneye ihtiyaç duyabilir. Mesela, Şu an karşısında olduğunuz bilgisayar örneğini inceleyelim. Masaüstü bilgisayarlar, klavye-mouse-monitör üçlüsünü bir araya getirince anlam ifade eder. Herhangi biri olmadan bir işlem yapmanız olasıdır ama zorludur.
+   Dizi, dezavantajlarından biri olan hafıza problemini inceleyelim. Bilgisayar örneğimizden devam edelim. Hali hazırda bir klavye, bir mouse ve bir monitörümüz var. Yeni bir monitör aldığımızda daha büyük bir masaya ihtiyacımız var. Aynı şekilde yeni bir klavye veya mouse aldığımızda da aynı durum geçerli. Bir yerden bir yere taşırken zaman ve güç kaybına uğruyoruz.
 
 ---
 
-### Örnek Resimler-5
+### Diziler
 
-- **Lorem Ipsum nedir?**
-Lorem Ipsum, basım ve dizgi endüstrisinin basit bir sahte metnidir. Lorem Ipsum, 1500'lerden beri endüstrinin standart sahte metni olmuştur.
-
-![bg left:50% h:800px](assets/sample-1.png)
-![bg left:50% h:800px](assets/sample-2.png)
+![center h:500px](assets/remove-duplicates-from-array-image1.png)
 
 ---
 
-### Örnek Resimler-6
+### Bağlı listeler
 
-- **Lorem Ipsum nedir?**
-Lorem Ipsum, basım ve dizgi endüstrisinin basit bir sahte metnidir. Lorem Ipsum, 1500'lerden beri endüstrinin standart sahte metni olmuştur.
+- 
+   Bağlı listeler, yan yana zorunluluğu olmadan veri tutmamızı sağlayan yapılardır. Yeni gelen eleman için hafıza'da yeni bir alan açmamız gerekmez. Array'dan farklı olarak evet elemanlar hafıza içerisinde dağılmış olabilir, fakat son gelen eleman kendinden bir önceki elemana adresini bildirmek zorundadır.
 
-![bg left:50% h:300px](assets/sample-1.png)
-![bg left:50% h:500px](assets/sample-2.png)
-
----
-
-###  Latex Örneği-1
-
-$$
-\begin{align}
-  \begin{aligned}
-  \text{compute } m[i,i+1] \\
-  \underbrace{ \{ m[1,2],m[2,3], \dots ,m[n-1,n]\} }_{(n-1) \text{ values}}
-  \end{aligned}
-    & \begin{cases}
-    & \ell=2  \\
-    & \text{for } i=1 \text{ to } n-1 \text{ do } \\
-    & \quad m[i,i+1]=\infty \\
-    & \quad \quad \text{for } k=i \text{ to } i \text{ do } \\
-    &  \quad \quad \quad \vdots
-    \end{cases} \\
-  \begin{aligned}
-  \text{compute } m[i,i+2] \\
-  \underbrace{ \{ m[1,3],m[2,4], \dots ,m[n-2,n]\} }_{(n-2) \text{ values}}
-  \end{aligned}
-    & \begin{cases}
-    & \ell=3  \\
-    & \text{for } i=1 \text{ to } n-2 \text{ do } \\
-    & \quad m[i,i+2]=\infty \\
-    & \quad \quad \text{for } k=i \text{ to } i+1 \text{ do } \\
-    & \quad \quad \quad \vdots
-    \end{cases} \\
-  \begin{aligned}
-  \text{compute } m[i,i+3] \\
-  \underbrace{ \{ m[1,4],m[2,5], \dots ,m[n-3,n]\} }_{(n-3) \text{ values}}
-    \end{aligned}
-    & \begin{cases}
-    & \ell=4  \\
-    & \text{for } i=1 \text{ to } n-3 \text{ do } \\
-    & \quad m[i,i+3]=\infty \\
-    & \quad \quad \text{for } k=i \text{ to } i+2 \text{ do } \\
-    & \quad \quad \quad \vdots
-    \end{cases}
-\end{align}
-$$
+   ![bg right:50% h:400px](assets/linked-list.png)
 
 ---
-
-### Latex Örneği-2
-
-$$
-\begin{align*}
-& \text{OPTIMAL-BST-COST} (p, n) \\
-& \quad \text{for} \ i \leftarrow 1 \ \text{to} \ n \ \text{do} \\
-& \qquad c[i, i-1] \leftarrow 0 \\
-& \qquad c[i, i] \leftarrow p[i] \\
-& \qquad R[i, j] \leftarrow i \\
-& \quad PS[1] \leftarrow p[1] \Longleftarrow PS[i] \rightarrow  \text{ prefix-sum } (i): \text{Sum of all} \ p[j] \ \text{values for}  \ j \leq i
- \\
-& \quad \text{for} \ i \leftarrow 2 \ \text{to} \ n \ \text{do} \\
-& \qquad PS[i] \leftarrow p[i] + PS[i-1]  \Longleftarrow  \text{compute the prefix sum} \\
-& \quad \text{for} \ d \leftarrow 1 \ \text{to} \ n−1 \ \text{do}   \Longleftarrow  \text{BSTs with} \ d+1 \ \text{consecutive keys} \\
-& \qquad \text{for} \  i \leftarrow 1 \ \text{to} \ n – d \ \text{do} \\
-& \qquad \quad j \leftarrow i + d \\
-& \qquad \quad c[i, j] \leftarrow \infty \\
-& \qquad \quad \text{for} \ r \leftarrow i \ \text{to} \ j \ \text{do} \\
-& \qquad \qquad q \leftarrow min\{c[i,r-1] + c[r+1, j]\} +  PS[j] – PS[i-1]\} \\
-& \qquad \qquad \text{if} \ q < c[i, j] \ \text{then} \\
-& \qquad \qquad \quad c[i, j]  \leftarrow q \\
-& \qquad \qquad \quad R[i, j] \leftarrow r \\
-& \quad \text{return} \ c[1, n], R
-\end{align*}
-$$
-
----
-
-**YAPILACAKLAR** KURS NOTLARINIZ İÇİN İÇERİĞİ GÜNCELLEME
-
---- 
 
 ## Referanslar
 
-- https://avesis.erdogan.edu.tr/ugur.coruh
-- https://www.linkedin.com/in/ugurcoruh/
-- https://www.hindawi.com/journals/scn/2018/6563089/ 
-- https://dl.acm.org/doi/abs/10.1145/3410352.3410836
-- https://www.sciencedirect.com/science/article/abs/pii/S2214212621002623 
+- https://app.patika.dev/courses/veri-yapilari-ve-algoritmalar/algoritma-nedir
+- https://app.patika.dev/courses/veri-yapilari-ve-algoritmalar/bilgi-ifade
+- https://app.patika.dev/courses/veri-yapilari-ve-algoritmalar/sayi-sistem
+- https://app.patika.dev/courses/veri-yapilari-ve-algoritmalar/linked-list
 
 
 ---
