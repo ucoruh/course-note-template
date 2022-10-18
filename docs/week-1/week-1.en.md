@@ -46,15 +46,15 @@ math: katex
 
 <!-- _backgroundColor: aquq -->
 
-<!-- _color: orange -->
+<!-- _color: green -->
 
 <!-- paginate: false -->
 
-## Sample Course Name
+## CE103 Algorithms and Programming I
 
-### Week-1 (Sample Course Module Name)
+### Week-1 (Database Systems)
 
-#### Spring Semester, 20XX-20XX
+#### Spring Semester, 2022-2023
 
 Download [DOC](week-1.en.md_doc.pdf), [SLIDE](week-1.en.md_slide.pdf), [PPTX](week-1.en.md_slide.pptx)
 
@@ -66,165 +66,99 @@ Download [DOC](week-1.en.md_doc.pdf), [SLIDE](week-1.en.md_slide.pdf), [PPTX](we
 
 ### Outline
 
-- Sample Outline
-- Sample Outline
-- Sample Outline
-- Sample Outline
+- Understanding The Concept of Database and Relational Database
+- Database Design
 
 ---
 
-## **Sample Topic**
+## **Database**
 
 ---
 
-### Sample Topic
+### Database
 
-- **What is Lorem Ipsum?**
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-  - when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, 
-    - but also the leap into electronic typesetting, remaining essentially unchanged. 
-      - It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. 
+- **What is Database?**
+1-) Database is a regular collection of information.
+2-) Database is regular data stored in a computer environment.
+3-) Systematic access in computer terminology
+capable, manageable, updateable,
+portable, defined relationships between each other
+is a set of available information.
+4-) Systematically stored on the computer,
+It is a chunk of data that can be processed in programs.
 
----
-
-### Sample Images-1
-
-- **What is Lorem Ipsum?**
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-
-![center h:400px](assets/sample-1.png)
 
 ---
 
-### Sample Images-2
+### DBMS 
+- **What is the Database 
+Management System-DBMS**
 
-- **What is Lorem Ipsum?**
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+Defining and creating a database,
+to keep alive and audited to the database
+used to gain access
+software system.
 
-![bg right:50% h:400px](assets/sample-1.png)
-
----
-
-### Sample Images-3
-
-- **What is Lorem Ipsum?**
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-
-![bg left:50% h:400px](assets/sample-1.png)
+![bg right:50% h:300px](assets/What-is-DBMS-Database-Management-System.webp)
 
 ---
 
-### Sample Images-4
+### DBMS
 
-- **What is Lorem Ipsum?**
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+- **Database systems contain the following information**
 
-![bg h:400px](assets/sample-1.png)
+Collection of interrelated data
+The set of software required to access the data
 
----
+![bg right:50% h:400px](assets/DBMS-2.png)
 
-### Sample Images-5
-
-- **What is Lorem Ipsum?**
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-
-![bg left:50% h:800px](assets/sample-1.png)
-![bg left:50% h:800px](assets/sample-2.png)
 
 ---
 
-### Sample Images-6
+### DBMS
 
-- **What is Lorem Ipsum?**
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+- **Advantages of Database Systems**
+ Database Systems prevents duplication of data. Establishing relationships between database systems and subsystems and many In practice, it requires data to be designed jointly within the same database.
 
-![bg left:50% h:300px](assets/sample-1.png)
-![bg left:50% h:500px](assets/sample-2.png)
 
----
-
-###  Latex Sample-1
-
-$$
-\begin{align}
-  \begin{aligned}
-  \text{compute } m[i,i+1] \\
-  \underbrace{ \{ m[1,2],m[2,3], \dots ,m[n-1,n]\} }_{(n-1) \text{ values}}
-  \end{aligned}
-    & \begin{cases}
-    & \ell=2  \\
-    & \text{for } i=1 \text{ to } n-1 \text{ do } \\
-    & \quad m[i,i+1]=\infty \\
-    & \quad \quad \text{for } k=i \text{ to } i \text{ do } \\
-    &  \quad \quad \quad \vdots
-    \end{cases} \\
-  \begin{aligned}
-  \text{compute } m[i,i+2] \\
-  \underbrace{ \{ m[1,3],m[2,4], \dots ,m[n-2,n]\} }_{(n-2) \text{ values}}
-  \end{aligned}
-    & \begin{cases}
-    & \ell=3  \\
-    & \text{for } i=1 \text{ to } n-2 \text{ do } \\
-    & \quad m[i,i+2]=\infty \\
-    & \quad \quad \text{for } k=i \text{ to } i+1 \text{ do } \\
-    & \quad \quad \quad \vdots
-    \end{cases} \\
-  \begin{aligned}
-  \text{compute } m[i,i+3] \\
-  \underbrace{ \{ m[1,4],m[2,5], \dots ,m[n-3,n]\} }_{(n-3) \text{ values}}
-    \end{aligned}
-    & \begin{cases}
-    & \ell=4  \\
-    & \text{for } i=1 \text{ to } n-3 \text{ do } \\
-    & \quad m[i,i+3]=\infty \\
-    & \quad \quad \text{for } k=i \text{ to } i+2 \text{ do } \\
-    & \quad \quad \quad \vdots
-    \end{cases}
-\end{align}
-$$
 
 ---
 
-### Latex Sample-2
+### DBSM
 
-$$
-\begin{align*}
-& \text{OPTIMAL-BST-COST} (p, n) \\
-& \quad \text{for} \ i \leftarrow 1 \ \text{to} \ n \ \text{do} \\
-& \qquad c[i, i-1] \leftarrow 0 \\
-& \qquad c[i, i] \leftarrow p[i] \\
-& \qquad R[i, j] \leftarrow i \\
-& \quad PS[1] \leftarrow p[1] \Longleftarrow PS[i] \rightarrow  \text{ prefix-sum } (i): \text{Sum of all} \ p[j] \ \text{values for}  \ j \leq i
- \\
-& \quad \text{for} \ i \leftarrow 2 \ \text{to} \ n \ \text{do} \\
-& \qquad PS[i] \leftarrow p[i] + PS[i-1]  \Longleftarrow  \text{compute the prefix sum} \\
-& \quad \text{for} \ d \leftarrow 1 \ \text{to} \ n−1 \ \text{do}   \Longleftarrow  \text{BSTs with} \ d+1 \ \text{consecutive keys} \\
-& \qquad \text{for} \  i \leftarrow 1 \ \text{to} \ n – d \ \text{do} \\
-& \qquad \quad j \leftarrow i + d \\
-& \qquad \quad c[i, j] \leftarrow \infty \\
-& \qquad \quad \text{for} \ r \leftarrow i \ \text{to} \ j \ \text{do} \\
-& \qquad \qquad q \leftarrow min\{c[i,r-1] + c[r+1, j]\} +  PS[j] – PS[i-1]\} \\
-& \qquad \qquad \text{if} \ q < c[i, j] \ \text{then} \\
-& \qquad \qquad \quad c[i, j]  \leftarrow q \\
-& \qquad \qquad \quad R[i, j] \leftarrow r \\
-& \quad \text{return} \ c[1, n], R
-\end{align*}
-$$
+- **Advantages of Database Systems**
+ Database Systems ensures that the data is consistent. Data integrity, the accuracy and consistency of the data
+ means. By placing constraints on data entries, only the desired range can be entered.
 
 ---
 
-**TODO** UPDATE CONTENT FOR YOUR COURSE NOTES
+### The Entity-Relationship Model
+ Revealing relationships in data analysis and  modeling. It is the tool used to put it on.
+ Entity: Distinguish from other objects in a field.
+ "thing" or "object".
+ By set of attributes is defined.
+ Relationship: The relationship between more than one entity.
 
---- 
+![bg left:50% h:500px](assets/Entity-Relationship%20Model.webp)
+
+---
+
+### Relationship and Relationship Sets
+
+ The link between entities is called a relationship. For example, with the entity “Burak”, “Lessons”
+ There is a relationship between existence.
+ Relationship set is the set of relationships of the same type, this set of relations is denoted by R.
+
+
+---
+
 
 ## References
 
 - https://avesis.erdogan.edu.tr/ugur.coruh
 - https://www.linkedin.com/in/ugurcoruh/
-- https://www.hindawi.com/journals/scn/2018/6563089/ 
-- https://dl.acm.org/doi/abs/10.1145/3410352.3410836
-- https://www.sciencedirect.com/science/article/abs/pii/S2214212621002623 
-
+- https://csworlds.com/what-is-dbms-database-management-system/ 
+- https://prepinsta.com/dbms/entity-relationship-model-er-model/
 
 ---
 
