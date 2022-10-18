@@ -2,7 +2,7 @@
 site_name: RTEU Course Notes Templates
 docs_dir: docs  # Where to find the English markdown files
 site_dir: site  # Where to put the English HTML files
-site_author: 'Asst. Prof. Dr. Uğur CORUH'
+site_author: 'Asst. Prof. Dr. Uğur CORUH'/'Abdul Samed Kara'
 site_url: 'https://ucoruh.github.io/course-note-template/'
 
 site_description_en: >-
@@ -21,8 +21,8 @@ copyright: Copyright &copy; 2019 - 2022 Asst. Prof. Dr. Uğur CORUH
 
 #theme:
 #    name: material
-#   logo: assets/images/favicon.png
-#   favicon: images/favicon.png
+#   logo: assets/images/favicon-1.webp
+#   favicon: images/favicon-1.webp
 #   palette:
 #       primary: teal
 #       accent: pink
@@ -68,14 +68,14 @@ theme:
     
   palette:
     - scheme: default
-      primary: lime
-      accent: lime
+      primary: teal
+      accent: orange
       toggle:
         icon: material/toggle-switch
         name: Switch to dark mode
     - scheme: slate
-      primary: blue grey
-      accent: blue grey
+      primary: light blue
+      accent: light blue
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to light mode
@@ -95,10 +95,10 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
-  favicon: images/favicon.png
+  favicon: images/favicon-1.webp
   icon:
     logo: logo
-    #logo: assets/images/favicon.png
+    #logo: assets/images/favicon-1.webp
     
 # Customization
 extra:
