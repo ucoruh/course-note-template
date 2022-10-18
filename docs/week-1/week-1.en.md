@@ -78,21 +78,21 @@ Download [DOC](week-1.en.md_doc.pdf), [SLIDE](week-1.en.md_slide.pdf), [PPTX](we
 ### Database
 
 - **What is Database?**
-1-) Database is a regular collection of information.
-2-) Database is regular data stored in a computer environment.
-3-) Systematic access in computer terminology
-capable, manageable, updateable,
-portable, defined relationships between each other
-is a set of available information.
-4-) Systematically stored on the computer,
-It is a chunk of data that can be processed in programs.
-
+  1-) Database is a regular collection of information.
+  2-) Database is regular data stored in a computer environment.
+  3-) Systematic access in computer terminology
+  capable, manageable, updateable,
+  portable, defined relationships between each other
+  is a set of available information.
+  4-) Systematically stored on the computer,
+  It is a chunk of data that can be processed in programs.
 
 ---
 
-### DBMS 
+### DBMS
+
 - **What is the Database 
-Management System-DBMS**
+  Management System-DBMS**
 
 Defining and creating a database,
 to keep alive and audited to the database
@@ -112,27 +112,25 @@ The set of software required to access the data
 
 ![bg right:50% h:400px](assets/DBMS-2.png)
 
-
 ---
 
 ### DBMS
 
 - **Advantages of Database Systems**
- Database Systems prevents duplication of data. Establishing relationships between database systems and subsystems and many In practice, it requires data to be designed jointly within the same database.
-
-
+  Database Systems prevents duplication of data. Establishing relationships between database systems and subsystems and many In practice, it requires data to be designed jointly within the same database.
 
 ---
 
 ### DBSM
 
 - **Advantages of Database Systems**
- Database Systems ensures that the data is consistent. Data integrity, the accuracy and consistency of the data
- means. By placing constraints on data entries, only the desired range can be entered.
+  Database Systems ensures that the data is consistent. Data integrity, the accuracy and consistency of the data
+  means. By placing constraints on data entries, only the desired range can be entered.
 
 ---
 
 ### The Entity-Relationship Model
+
  Revealing relationships in data analysis and  modeling. It is the tool used to put it on.
  Entity: Distinguish from other objects in a field.
  "thing" or "object".
@@ -149,9 +147,7 @@ The set of software required to access the data
  There is a relationship between existence.
  Relationship set is the set of relationships of the same type, this set of relations is denoted by R.
 
-
 ---
-
 
 ## References
 
